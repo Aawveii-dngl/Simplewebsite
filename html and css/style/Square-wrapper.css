@@ -1,0 +1,28 @@
+/*It is a grid box with chess pattern*/
+.squarewrapper{
+    display: flex;
+    justify-content: center;
+}
+.squarewrapper > .squares{
+    width: 1000px;
+}
+.squarewrapper > .squares > .square{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -4px;
+}
+.squarewrapper > .squares > .square > .image-wrapper img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.square > .text-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 42px;
+}
+.square > .text-wrapper h1{
+    color: #cea135;
+}

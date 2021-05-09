@@ -1,0 +1,41 @@
+/*This is for about page with image splice */
+.about-header{
+    position: relative;
+    height: 400px;
+    /*overflow: hidden;*/
+}
+.about-header > .header-bg{/*transformation and position is managed here*/
+    position: absolute;
+    top: -22px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 95%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform:skewY(-6deg);
+    transform-origin: top left;
+    filter: brightness(50%);
+}
+.about-header > .about-header-wrapper{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 100vw;
+}
+.about-header > .about-header-wrapper > .header-content{
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-header > .about-header-wrapper > .header-content > .heading-wrapper{
+    background-color: #cea135;
+    color: #11122b;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 175px;
+    text-align: center;
+    padding: 2px;
+}

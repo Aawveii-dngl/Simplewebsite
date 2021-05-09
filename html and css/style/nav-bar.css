@@ -1,0 +1,98 @@
+
+.nav-wrapper{
+    height: 190px;
+    background-color: #11122b;
+    color:#cbcbcb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+}
+
+.nav-wrapper> .left-nav{
+    display: flex;
+    align-items: center;
+}
+.nav-wrapper > .left-nav > .icon{
+    margin-right: 15px;
+}
+.nav-wrapper > .left-nav > .icon i{
+    font-size: 2em;
+}
+.nav-wrapper > .left-nav > .contact-time{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+ .nav-wrapper> .left-nav > .contact-time > .time{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.8em;
+}
+ .navlinks-wrapper > .nav-link a{
+    font-family: 'Ubuntu', sans-serif;
+    color: cornsilk;
+}
+.nav-wrapper > .right-nav > .address{
+    font-family: 'Ubuntu', sans-serif;
+}
+.nav-wrapper > .center-nav > .banner-image{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-wrapper > .center-nav > .banner-image img{
+    width: 216px;
+}
+.nav-wrapper > .center-nav {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;
+}
+.navlinks-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlinks-wrapper > .nav-link a {
+    font-family:'Ubuntu', sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.navlinks-wrapper > .nav-link{
+    width: 70px;
+    text-align: center;
+}
+.navlinks-wrapper > .nav-link a:hover{
+    color: #cea135;
+    letter-spacing: 2px;
+}
+.nav-wrapper > .right-nav{
+    display: flex;
+    align-items: center;
+}
+.nav-wrapper > .right-nav > .address{
+    text-align: right;
+    font-family:'Ubuntu', sans-serif;
+}
+.nav-wrapper > .right-nav > .address-loc{
+    margin-left: 15px;
+    font-size: 2em;
+}
+.nav-wrapper > .right-nav > .address a{
+    font-size: 0.9em;
+    color: #858585;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.nav-wrapper > .right-nav > .address a:hover{
+    color: #cea135;
+}
+.nav-wrapper > .right-nav > .address-loc a{
+    color:#858585;
+    transition: 0.5s;
+}
+.nav-wrapper > .right-nav > .address-loc a:hover{
+    color: #cea135;
+}

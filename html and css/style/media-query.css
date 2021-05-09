@@ -1,0 +1,82 @@
+@media(max-width:615px){/*Home nav*/
+    .nav-wrapper{
+        flex-direction: column;
+        height: 100%;
+    }
+    .nav-wrapper > .left-nav{
+        order: 2;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .nav-wrapper > .center-nav{
+        order: 1;
+        width: 100%;
+    }
+    .nav-wrapper > .right-nav{
+        order: 3;
+        margin-top: 10px;
+    }
+    .navlinks-wrapper{
+        flex-direction: column;
+    }
+    .navlinks-wrapper > .nav-link{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        font-size: 1.5em;
+    }
+
+}
+@media(max-width:615px){/*Home details*/
+    .features-section{
+        flex-direction: column;
+        height: 100%;
+    }
+    .features-section > .column-wrapper{
+        flex-direction: column;
+        width: 90%;
+    }
+}
+@media(max-width:615px){/*header-wrapper */
+    .about-header > .about-header-wrapper > .header-content{
+        flex-direction: column;
+    }
+    .about-header > .header-bg{
+        background-size: 600px;
+    }
+}
+@media(max-width:615px){/*Abou details about chef*/
+    .page-container > .page-container-wrapper > #chef{
+        width: 100%;
+        margin: 0px 0px 25px 0px;
+    }
+    .page-container > .page-container-wrapper{
+        padding: 20px;
+        text-align: center;
+    }
+}
+@media(max-width:615px){ /*Squares*/
+    .squarewrapper > .squares > .square{
+        grid-template-columns: 1fr;
+    }
+    .squarewrapper > .squares > .square > .image-wrapper{
+        order: 2;
+    }
+    .squarewrapper > .squares > .square > .text-wrapper{
+        order: 1;
+    }
+}
+@media(max-width:615px){/*contact with forms*/
+    .page-container > .grid-box-wrapper{
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        width: 100%;
+    }
+    .contact-form > .form-group input{
+        padding: 1.5rem 0rem;
+    } 
+    .contact-form > .form-group textarea{
+        padding: 1.5rem 0rem;
+    }
+
+}

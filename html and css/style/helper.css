@@ -1,0 +1,23 @@
+.spacer{/*can be used when you need space*/
+    width: 100%;
+    height: 40px;
+}
+.spacer2{
+    width:100%;
+    height: 20px;
+}
+.spacer3{
+    width:100%;
+    height: 10px;
+}
+.anker{
+    text-decoration: none;
+}
+.anker:focus{
+    outline: none;
+}
+.anker h1::after{
+    font-family: "Font Awesome 5 Free";
+    content: " ";
+    font-weight: 900;
+}

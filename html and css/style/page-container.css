@@ -1,0 +1,19 @@
+/*It contains the page container with image and text*/
+.page-container {
+    display:flex;
+    justify-content: center;
+}
+.page-container > .page-container-wrapper{
+    width: 1000px;
+}
+.page-container > .page-container-wrapper > #chef{
+    width: 350px;
+    margin: 23px 40px 20px 0px;
+    float: left;
+    border: #cea135;
+}
+.page-container > .page-container-wrapper > p{
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-weight: 700;
+}

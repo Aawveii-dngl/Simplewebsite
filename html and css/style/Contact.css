@@ -1,0 +1,29 @@
+.page-container{
+    display: flex;
+    justify-content: center;
+    margin:25px
+}
+.page-container > .grid-box-wrapper{
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 100px;
+}
+.page-container > .grid-box-wrapper > .company-data > .logo img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.page-container > .grid-box-wrapper > .company-data > .company-details-wrapper{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 1.25em;
+    text-align: right;
+    font-weight: 700;
+}
+.page-container > .grid-box-wrapper > .company-data > .company-details-wrapper i{
+    color:#cea135;
+}
